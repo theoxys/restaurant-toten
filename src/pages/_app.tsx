@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <Head>
-        <title>Nexjs + Chakra Boilerplate</title>
+        <title>Restaurant Toten Simulator</title>
 
         <link rel="shortcut icon" href="/img/icon-512.png" />
 
@@ -18,10 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <link rel="manifest" href="/manifest.json" />
 
-        <meta
-          name="description"
-          content="Boilerplate configurado com NextJS + Typescript + Eslint + ChakraUI"
-        />
+        <meta name="description" content="Simulador de Toten de restaurante" />
       </Head>
 
       <Component {...pageProps} />
